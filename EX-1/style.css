@@ -1,4 +1,44 @@
 body {
     background: grey;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px;
+}
+
+
+
+.background {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    color: black;
+    background-color: orange;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.button:hover{
+    cursor: pointer;
 }
